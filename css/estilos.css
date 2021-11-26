@@ -35,7 +35,8 @@
   background-color: black;
   color: white;
   list-style-type: none;
-  text-decoration: none; }
+  text-decoration: none;
+  border: solid 3px; }
 
 /*FOOTER*/
 .pie {
@@ -76,5 +77,5 @@
     left: 5px;
     top: 60px; }
   .logoAnto {
-    width: 120px;
-    height: 70px; } }
+    width: 130px;
+    height: 75px; } }
