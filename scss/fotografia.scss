@@ -8,7 +8,7 @@
     background-color: black;
 }
 /*PARRAFOS*/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby{
+.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 70px;
@@ -56,11 +56,11 @@
     text-align: center;
 }
 /*FOTOS CON TEXTOS*/
-.contenedor, .contenedor1, .contenedor2{
+.contenedor, .contenedor1, .contenedor2, .contenedor3{
     position: relative;
     display: inline-block;
 }
-.contenedor__plus, .contenedor1__plus{
+.contenedor__plus, .contenedor1__plus, .contenedor3__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
     top: 150px;
@@ -76,7 +76,7 @@
     color: white;
 }
 
-.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby{
+.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn{
     width: 100%;
 }
 
@@ -93,7 +93,7 @@
     .logo{
         display: none;
     }
-    .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio{
+    .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn{
         font-size: 1rem;
     }
 }
@@ -106,6 +106,9 @@
     .contenedor__plus1{
         right: 60px;
         top: 50px;
+    }
+    .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn{
+        font-size: 1rem;
     }
     .logo{
         display: none;
