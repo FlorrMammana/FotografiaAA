@@ -12,14 +12,14 @@
 </head>
 <body class="FondoNuestroEstudio">
   <header>
-    <nav class="navbar navbar-light fixed-top bg-white">
+    <nav class="navbar navbar-light fixed-top bg-*">
       <div class="container-fluid ">
         <a class="navbar-brand " href="../index.html">
           <div class="logo">   
-            <img src="../imagenes/logo/Antonella.png" width="150" height="30" class="d-inline-block align-text-center" alt="logo de antonella">
+            <img src="../imagenes/logo/logoSinFondo.png" width="200" height="70" class="d-inline-block align-text-center" alt="logo de antonella">
           </div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="background-color: white;">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -43,9 +43,6 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="NuestroEstudio.html"> Nuestro Estudio</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="MediosDePago.html">Medios de pago</a>
-                </li>
               </ul>  
             </div>
           </div>
@@ -53,9 +50,15 @@
     </nav>
   </header>
   <main>
-      <h1 class="display-1 NuestroEstudio text-center">Nuestro Estudio</h1>
-      <img src="../imagenes/galeria/f14.jpg" class="FotoNuestroEstudio" alt="Foto de bebe">
-    <p class="ResumenNuestroEstudio">Nuestro estudio ubicado en zona sur de la ciudad de rosario, se encuentra climatizado todo el año, para brindar la mejor experiencia en tu sesión.</p>
+    <div class="contenedor1">
+      <img class="contenedor__fotoEstudio"src="../imagenes/banner/banner_nuestroEstudio.jpg" alt="foto de estudio">
+      <div class="contenedor1__plus text-center display-1">Nuestro Estudio</div>
+    </div>
+    <section class="seccion">
+      <p class="seccion__resumenNuestroEstudio">
+        Nuestro estudio ubicado en la zona sur de Rosario, a pocas cuadras del Boulevar 27 de febrero, cuenta con climatización todo el año para brindarte la mejor experiencia en tu visita. Todo tipo de vestuarios disponibles y accesorios(consultar edad), también encontraras muestras físicas de los productos que incluyen las entregas finales como cuadros, fotolibros, gigantografias, entre otros.
+      </p>
+    </section>
   </main>
   <footer class="pie">
       <p>

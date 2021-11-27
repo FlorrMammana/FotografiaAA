@@ -8,15 +8,16 @@
     background-color: black;
 }
 /*PARRAFOS*/
-.resumen__parrafo, .resumenAcercaDeMi{
+.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 70px;
     text-align:center;
     animation-name: desplazamiento;
-    animation-duration: 3s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
 }
+
 /*ANIMACIONES*/
 
 @keyframes desplazamiento {
@@ -55,24 +56,27 @@
     text-align: center;
 }
 /*FOTOS CON TEXTOS*/
-.contenedor{
+.contenedor, .contenedor1{
     position: relative;
     display: inline-block;
 }
-.texto-encima{
+.contenedor__plus, .contenedor1__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
     top: 150px;
     left: 40px;
 }
-
-.anto{
+.contenedor1__plus{
+    color: white;
+    font-size: 5rem;
+}
+.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio{
     width: 100%;
 }
 
 /*MEDIA QUERIS*/
 @media (min-width: 320px) and (max-width: 480px){
-    .texto-encima{
+    .contenedor__plus, .contenedor1__plus{
         left: 5px;
         top: 170px;
     }
@@ -80,14 +84,14 @@
         width: 120px;
         height: 70px;
     }
-    .resumenAcercaDeMi{
+    .seccion1__resumenAcercaDeMi{
         font-size: 1rem;
     }
 
 }
 
 @media (min-width: 481px) and (max-width: 768px){
-    .texto-encima{
+    .contenedor__plus, .contenedor1__plus{
         left: 5px;
         top: 60px;
     }
