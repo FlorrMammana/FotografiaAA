@@ -90,13 +90,18 @@
 
 /*MEDIA QUERIS*/
 @media (min-width: 320px) and (max-width: 480px){
-    .contenedor__plus, .contenedor1__plus{
+    .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
         left: 5px;
         top: 170px;
+        
     }
     .contenedor__plus1{
         right: 60px;
         top: 170px;
+    }
+    .contenedor4__plus{
+       top:70px; 
+       left:5px;
     }
     .logo{
         display: none;
