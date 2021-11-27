@@ -73,7 +73,7 @@
   .logoAnto {
     width: 120px;
     height: 70px; }
-  .seccion1__resumenAcercaDeMi {
+  .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio {
     font-size: 1rem; } }
 
 @media (min-width: 481px) and (max-width: 768px) {
