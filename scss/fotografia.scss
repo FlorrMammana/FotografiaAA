@@ -8,7 +8,7 @@
     background-color: black;
 }
 /*PARRAFOS*/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio{
+.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 70px;
@@ -56,7 +56,7 @@
     text-align: center;
 }
 /*FOTOS CON TEXTOS*/
-.contenedor, .contenedor1{
+.contenedor, .contenedor1, .contenedor2{
     position: relative;
     display: inline-block;
 }
@@ -66,11 +66,17 @@
     top: 150px;
     left: 40px;
 }
-.contenedor1__plus{
-    color: white;
-    font-size: 5rem;
+.contenedor__plus1{
+    font-family: 'Niconne', cursive;
+    position: absolute;
+    right: 100px;
+    top: 150px;
 }
-.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio{
+.contenedor1__plus, .contenedor__plus1{
+    color: white;
+}
+
+.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby{
     width: 100%;
 }
 
@@ -80,9 +86,12 @@
         left: 5px;
         top: 170px;
     }
-    .logoAnto{
-        width: 120px;
-        height: 70px;
+    .contenedor__plus1{
+        right: 60px;
+        top: 170px;
+    }
+    .logo{
+        display: none;
     }
     .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio{
         font-size: 1rem;
@@ -94,9 +103,12 @@
         left: 5px;
         top: 60px;
     }
-    .logoAnto{
-        width: 130px;
-        height: 75px;
+    .contenedor__plus1{
+        right: 60px;
+        top: 50px;
+    }
+    .logo{
+        display: none;
     }
 
 }
