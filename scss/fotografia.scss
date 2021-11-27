@@ -66,17 +66,25 @@
     top: 150px;
     left: 40px;
 }
+.contenedor4__plus{
+    font-family: 'Niconne', cursive;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+
+}
 .contenedor__plus1{
     font-family: 'Niconne', cursive;
     position: absolute;
     right: 100px;
     top: 150px;
 }
-.contenedor1__plus, .contenedor__plus1{
+
+.contenedor1__plus, .contenedor__plus1, .contenedor4__plus{
     color: white;
 }
 
-.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn{
+.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad{
     width: 100%;
 }
 
