@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lobster&family=Parisienne&family=Stalemate&display=swap");@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lobster&family=Parisienne&family=Stalemate&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 *{
     margin: 0;
@@ -8,7 +9,7 @@
     background-color: black;
 }
 /*PARRAFOS*/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil{
+.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones, .seccion__resumenFemmale{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 70px;
@@ -56,11 +57,11 @@
     text-align: center;
 }
 /*FOTOS CON TEXTOS*/
-.contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5{
+.contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
     position: relative;
     display: inline-block;
 }
-.contenedor__plus, .contenedor1__plus, .contenedor3__plus, .contenedor5__plus{
+.contenedor__plus, .contenedor1__plus, .contenedor3__plus, .contenedor5__plus, .contenedor7__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
     top: 150px;
@@ -73,18 +74,18 @@
     left: 50px;
 
 }
-.contenedor__plus1{
+.contenedor__plus1,  .contenedor6__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
     right: 100px;
     top: 150px;
 }
 
-.contenedor1__plus, .contenedor__plus1, .contenedor4__plus{
+.contenedor1__plus, .contenedor__plus1, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
     color: white;
 }
 
-.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil{
+.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil, .contenedor6__fotoSesiones{
     width: 100%;
 }
 
@@ -95,7 +96,7 @@
         top: 170px;
         
     }
-    .contenedor__plus1{
+    .contenedor__plus1, .contenedor6__plus{
         right: 60px;
         top: 170px;
     }
@@ -110,7 +111,7 @@
     .logo{
         display: none;
     }
-    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil{
+    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil, .seccion__resumenSesiones{
         font-size: 1rem;
     }
 }
@@ -120,7 +121,7 @@
         left: 5px;
         top: 60px;
     }
-    .contenedor__plus1{
+    .contenedor__plus1, .contenedor6__plus{
         right: 60px;
         top: 50px;
     }
@@ -132,7 +133,7 @@
         top: 50px;
         left:40px;
     }
-    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil{
+    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones{
         font-size: 1rem;
         }
     .logo{
