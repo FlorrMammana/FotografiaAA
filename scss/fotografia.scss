@@ -1,15 +1,24 @@
 @import "sass/bootstrap.scss";
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+$size50:50px;
+$size100:100px;
+$size200:200px;
 *{
     margin: 0;
     padding: 0;
 }
+/**********
+    FONDO
+***********/
+.fondo{
+    background-color:black;
+    color:white;
+}
 /**************
     PARRAFOS
 **************/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMaternidad, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones, .seccion__resumenFemmale{
+.seccion__parrafos{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 50px;
@@ -51,26 +60,29 @@
         font-family: 'Niconne', cursive;
         position: absolute;
     }
+    //COLOR DE TEXTO EN LAS FOTOS
     .contenedor1__plus, .contenedor2__plus, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
         color: white;
     }
+    //UBICACION DE TEXTO EN LAS FOTOS
     .contenedor__plus, .contenedor1__plus, .contenedor2__plus, .contenedor5__plus, .contenedor6__plus, .contenedor7__plus{
-        top: 150px;
+        top: $size100 + $size50;
     }
     .contenedor4__plus, .contenedor3__plus{
-        left: 50px;
+        left: $size50;
     }
     .contenedor5__plus{
-        left:200px;
+        left:$size200;
     }
     .contenedor4__plus, .contenedor3__plus{
-        top: 250px;
+        top: $size50;
+        left: 10px;
     }
     .contenedor6__plus{
-        right: 100px;
+        right: $size100;
     }
     .contenedor2__plus{
-        right:150px;
+        right:$size100 + $size50;
     } 
     .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
         left: 40px;
@@ -85,60 +97,73 @@
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 0;
-    height: 100px;
+    height: $size100;
     text-align: center;
 }
 /*****************
     MEDIA QUERIS
 ******************/
 @media (min-width: 320px) and (max-width: 480px){
-    .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
-        left: 5px;
-        top: 170px;
-        
-    }
-    .contenedor2__plus, .contenedor6__plus{
-        right: 60px;
-        top: 170px;
-    }
-    .contenedor4__plus{
-       top:70px; 
-       left:5px;
-    }
-    .contenedor5__plus{
-        top: 50px;
-        left:40px;
-    }
+    .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
+        position: relative;
+        display: inline-block;
+        .contenedor2__plus, .contenedor6__plus{
+            right: $size50 + 10px;
+            top: $size200;
+        }
+        .contenedor3__plus{
+            left:20px;
+            top:170px;
+        }
+        .contenedor5__plus{
+            top: $size50;
+            left:$size50 - 10px;
+        }
+        .contenedor7__plus{
+            left:10px;
+            top: $size200 + $size100;
+        }
+        .contenedor__plus, .contenedor1__plus{
+            left: 5px;
+            top: $size200 - 10px;   
+        }
+    }    
     .logo{
         display: none;
     }
-    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil, .seccion__resumenSesiones{
+    .seccion__parrafos{
         font-size: 1rem;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
-    .contenedor__plus, .contenedor1__plus{
-        left: 5px;
-        top: 60px;
+    .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
+        position: relative;
+        display: inline-block;
+        .contenedor4__plus{
+            top:$size100 + $size50; 
+            left:15px;
+         }
+        .contenedor3__plus, .contenedor6__plus, .contenedor7__plus{
+            top:$size200 + $size50;
+        }
+        .contenedor2__plus{
+            right: $size50 + 10px;
+            top: $size50;
+        }
+        .contenedor5__plus{
+            top: $size50;
+            left:$size50;
+        }
+        .contenedor__plus, .contenedor1__plus{
+            left: 5px;
+            top: $size50 + 10px;
+        }
     }
-    .contenedor2__plus, .contenedor6__plus{
-        right: 60px;
-        top: 50px;
-    }
-    .contenedor4__plus{
-        top:70px; 
-        left:15px;
-     }
-     .contenedor5__plus{
-        top: 50px;
-        left:40px;
-    }
-    .resumen__parrafo, .seccion1__resumenAcercaDeMi,.seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones{
+    .seccion__parrafos{
         font-size: 1rem;
         }
     .logo{
         display: none;
     }
-
 }

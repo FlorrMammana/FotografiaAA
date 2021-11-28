@@ -7506,10 +7506,17 @@ textarea.form-control-lg {
   margin: 0;
   padding: 0; }
 
+/**********
+    FONDO
+***********/
+.fondo {
+  background-color: black;
+  color: white; }
+
 /**************
     PARRAFOS
 **************/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMaternidad, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil, .seccion__resumenSesiones, .seccion__resumenFemmale {
+.seccion__parrafos {
   font-family: 'Dosis', sans-serif;
   font-size: 2rem;
   margin: 50px;
@@ -7550,7 +7557,8 @@ textarea.form-control-lg {
   .contenedor .contenedor5__plus, .contenedor1 .contenedor5__plus, .contenedor2 .contenedor5__plus, .contenedor3 .contenedor5__plus, .contenedor4 .contenedor5__plus, .contenedor5 .contenedor5__plus, .contenedor6 .contenedor5__plus, .contenedor7 .contenedor5__plus {
     left: 200px; }
   .contenedor .contenedor4__plus, .contenedor .contenedor3__plus, .contenedor1 .contenedor4__plus, .contenedor1 .contenedor3__plus, .contenedor2 .contenedor4__plus, .contenedor2 .contenedor3__plus, .contenedor3 .contenedor4__plus, .contenedor3 .contenedor3__plus, .contenedor4 .contenedor4__plus, .contenedor4 .contenedor3__plus, .contenedor5 .contenedor4__plus, .contenedor5 .contenedor3__plus, .contenedor6 .contenedor4__plus, .contenedor6 .contenedor3__plus, .contenedor7 .contenedor4__plus, .contenedor7 .contenedor3__plus {
-    top: 250px; }
+    top: 50px;
+    left: 10px; }
   .contenedor .contenedor6__plus, .contenedor1 .contenedor6__plus, .contenedor2 .contenedor6__plus, .contenedor3 .contenedor6__plus, .contenedor4 .contenedor6__plus, .contenedor5 .contenedor6__plus, .contenedor6 .contenedor6__plus, .contenedor7 .contenedor6__plus {
     right: 100px; }
   .contenedor .contenedor2__plus, .contenedor1 .contenedor2__plus, .contenedor2 .contenedor2__plus, .contenedor3 .contenedor2__plus, .contenedor4 .contenedor2__plus, .contenedor5 .contenedor2__plus, .contenedor6 .contenedor2__plus, .contenedor7 .contenedor2__plus {
@@ -7573,37 +7581,48 @@ textarea.form-control-lg {
     MEDIA QUERIS
 ******************/
 @media (min-width: 320px) and (max-width: 480px) {
-  .contenedor__plus, .contenedor1__plus, .contenedor3__plus {
-    left: 5px;
-    top: 170px; }
-  .contenedor2__plus, .contenedor6__plus {
-    right: 60px;
-    top: 170px; }
-  .contenedor4__plus {
-    top: 70px;
-    left: 5px; }
-  .contenedor5__plus {
-    top: 50px;
-    left: 40px; }
+  .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7 {
+    position: relative;
+    display: inline-block; }
+    .contenedor .contenedor2__plus, .contenedor .contenedor6__plus, .contenedor1 .contenedor2__plus, .contenedor1 .contenedor6__plus, .contenedor2 .contenedor2__plus, .contenedor2 .contenedor6__plus, .contenedor3 .contenedor2__plus, .contenedor3 .contenedor6__plus, .contenedor4 .contenedor2__plus, .contenedor4 .contenedor6__plus, .contenedor5 .contenedor2__plus, .contenedor5 .contenedor6__plus, .contenedor6 .contenedor2__plus, .contenedor6 .contenedor6__plus, .contenedor7 .contenedor2__plus, .contenedor7 .contenedor6__plus {
+      right: 60px;
+      top: 200px; }
+    .contenedor .contenedor3__plus, .contenedor1 .contenedor3__plus, .contenedor2 .contenedor3__plus, .contenedor3 .contenedor3__plus, .contenedor4 .contenedor3__plus, .contenedor5 .contenedor3__plus, .contenedor6 .contenedor3__plus, .contenedor7 .contenedor3__plus {
+      left: 20px;
+      top: 170px; }
+    .contenedor .contenedor5__plus, .contenedor1 .contenedor5__plus, .contenedor2 .contenedor5__plus, .contenedor3 .contenedor5__plus, .contenedor4 .contenedor5__plus, .contenedor5 .contenedor5__plus, .contenedor6 .contenedor5__plus, .contenedor7 .contenedor5__plus {
+      top: 50px;
+      left: 40px; }
+    .contenedor .contenedor7__plus, .contenedor1 .contenedor7__plus, .contenedor2 .contenedor7__plus, .contenedor3 .contenedor7__plus, .contenedor4 .contenedor7__plus, .contenedor5 .contenedor7__plus, .contenedor6 .contenedor7__plus, .contenedor7 .contenedor7__plus {
+      left: 10px;
+      top: 300px; }
+    .contenedor .contenedor__plus, .contenedor .contenedor1__plus, .contenedor1 .contenedor__plus, .contenedor1 .contenedor1__plus, .contenedor2 .contenedor__plus, .contenedor2 .contenedor1__plus, .contenedor3 .contenedor__plus, .contenedor3 .contenedor1__plus, .contenedor4 .contenedor__plus, .contenedor4 .contenedor1__plus, .contenedor5 .contenedor__plus, .contenedor5 .contenedor1__plus, .contenedor6 .contenedor__plus, .contenedor6 .contenedor1__plus, .contenedor7 .contenedor__plus, .contenedor7 .contenedor1__plus {
+      left: 5px;
+      top: 190px; }
   .logo {
     display: none; }
-  .resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil, .seccion__resumenSesiones {
+  .seccion__parrafos {
     font-size: 1rem; } }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .contenedor__plus, .contenedor1__plus {
-    left: 5px;
-    top: 60px; }
-  .contenedor2__plus, .contenedor6__plus {
-    right: 60px;
-    top: 50px; }
-  .contenedor4__plus {
-    top: 70px;
-    left: 15px; }
-  .contenedor5__plus {
-    top: 50px;
-    left: 40px; }
-  .resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil, .seccion__resumenSesiones {
+  .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7 {
+    position: relative;
+    display: inline-block; }
+    .contenedor .contenedor4__plus, .contenedor1 .contenedor4__plus, .contenedor2 .contenedor4__plus, .contenedor3 .contenedor4__plus, .contenedor4 .contenedor4__plus, .contenedor5 .contenedor4__plus, .contenedor6 .contenedor4__plus, .contenedor7 .contenedor4__plus {
+      top: 150px;
+      left: 15px; }
+    .contenedor .contenedor3__plus, .contenedor .contenedor6__plus, .contenedor .contenedor7__plus, .contenedor1 .contenedor3__plus, .contenedor1 .contenedor6__plus, .contenedor1 .contenedor7__plus, .contenedor2 .contenedor3__plus, .contenedor2 .contenedor6__plus, .contenedor2 .contenedor7__plus, .contenedor3 .contenedor3__plus, .contenedor3 .contenedor6__plus, .contenedor3 .contenedor7__plus, .contenedor4 .contenedor3__plus, .contenedor4 .contenedor6__plus, .contenedor4 .contenedor7__plus, .contenedor5 .contenedor3__plus, .contenedor5 .contenedor6__plus, .contenedor5 .contenedor7__plus, .contenedor6 .contenedor3__plus, .contenedor6 .contenedor6__plus, .contenedor6 .contenedor7__plus, .contenedor7 .contenedor3__plus, .contenedor7 .contenedor6__plus, .contenedor7 .contenedor7__plus {
+      top: 250px; }
+    .contenedor .contenedor2__plus, .contenedor1 .contenedor2__plus, .contenedor2 .contenedor2__plus, .contenedor3 .contenedor2__plus, .contenedor4 .contenedor2__plus, .contenedor5 .contenedor2__plus, .contenedor6 .contenedor2__plus, .contenedor7 .contenedor2__plus {
+      right: 60px;
+      top: 50px; }
+    .contenedor .contenedor5__plus, .contenedor1 .contenedor5__plus, .contenedor2 .contenedor5__plus, .contenedor3 .contenedor5__plus, .contenedor4 .contenedor5__plus, .contenedor5 .contenedor5__plus, .contenedor6 .contenedor5__plus, .contenedor7 .contenedor5__plus {
+      top: 50px;
+      left: 50px; }
+    .contenedor .contenedor__plus, .contenedor .contenedor1__plus, .contenedor1 .contenedor__plus, .contenedor1 .contenedor1__plus, .contenedor2 .contenedor__plus, .contenedor2 .contenedor1__plus, .contenedor3 .contenedor__plus, .contenedor3 .contenedor1__plus, .contenedor4 .contenedor__plus, .contenedor4 .contenedor1__plus, .contenedor5 .contenedor__plus, .contenedor5 .contenedor1__plus, .contenedor6 .contenedor__plus, .contenedor6 .contenedor1__plus, .contenedor7 .contenedor__plus, .contenedor7 .contenedor1__plus {
+      left: 5px;
+      top: 60px; }
+  .seccion__parrafos {
     font-size: 1rem; }
   .logo {
     display: none; } }
