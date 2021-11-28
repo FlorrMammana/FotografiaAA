@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lobster&family=Parisienne&family=Stalemate&display=swap");
+@import "sass/bootstrap.scss";
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 *{
@@ -8,7 +9,7 @@
 /**************
     PARRAFOS
 **************/
-.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones, .seccion__resumenFemmale{
+.resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMaternidad, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones, .seccion__resumenFemmale{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
     margin: 50px;
@@ -41,37 +42,40 @@
 .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
     position: relative;
     display: inline-block;
-}
-/*TEXTOS EN LAS FOTOS*/
-.contenedor__plus, .contenedor1__plus, .contenedor3__plus, .contenedor5__plus, .contenedor7__plus{
-    font-family: 'Niconne', cursive;
-    position: absolute;
-    top: 150px;
-    left: 40px;
-}
-.contenedor4__plus{
-    font-family: 'Niconne', cursive;
-    position: absolute;
-    top: 250px;
-    left: 50px;
-
-}
-.contenedor2__plus,  .contenedor6__plus{
-    font-family: 'Niconne', cursive;
-    position: absolute;
-    right: 100px;
-    top: 150px;
-}
-
-.contenedor1__plus, .contenedor2__plus, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
-    color: white;
-}
-/*CONTENEDORES DE FOTOS*/
-
-.contenedor__fotoAcercaDeMi, .contenedor1__fotoEstudio, .contenedor2__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil, .contenedor6__fotoSesiones, .contenedor7__fotoFemmale{
-    width: 100%;
-}
-
+    //CONTENEDORES DE FOTOS
+    .contenedor__fotoAcercaDeMi, .contenedor1__fotoEstudio, .contenedor2__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil, .contenedor6__fotoSesiones, .contenedor7__fotoFemmale{
+        width: 100%;
+    }
+    //TEXTO EN LAS FOTOS
+    .contenedor__plus, .contenedor2__plus, .contenedor1__plus, .contenedor3__plus,.contenedor4__plus, .contenedor5__plus, .contenedor6__plus, .contenedor7__plus{
+        font-family: 'Niconne', cursive;
+        position: absolute;
+    }
+    .contenedor1__plus, .contenedor2__plus, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
+        color: white;
+    }
+    .contenedor__plus, .contenedor1__plus, .contenedor2__plus, .contenedor5__plus, .contenedor6__plus, .contenedor7__plus{
+        top: 150px;
+    }
+    .contenedor4__plus, .contenedor3__plus{
+        left: 50px;
+    }
+    .contenedor5__plus{
+        left:200px;
+    }
+    .contenedor4__plus, .contenedor3__plus{
+        top: 250px;
+    }
+    .contenedor6__plus{
+        right: 100px;
+    }
+    .contenedor2__plus{
+        right:150px;
+    } 
+    .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
+        left: 40px;
+    } 
+}    
 
 /*********
    FOOTER
