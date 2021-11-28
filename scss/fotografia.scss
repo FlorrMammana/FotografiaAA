@@ -5,21 +5,22 @@
     margin: 0;
     padding: 0;
 }
-.fondoGaleria{
-    background-color: black;
-}
-/*PARRAFOS*/
+/**************
+    PARRAFOS
+**************/
 .resumen__parrafo, .seccion1__resumenAcercaDeMi, .seccion__resumenNuestroEstudio, .seccion__resumenMiniBaby, .seccion__resumenNewborn, .seccion__resumenInfantil,.seccion__resumenSesiones, .seccion__resumenFemmale{
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
-    margin: 70px;
+    margin: 50px;
     text-align:center;
     animation-name: desplazamiento;
     animation-duration: 4s;
     animation-iteration-count: 1;
 }
 
-/*ANIMACIONES*/
+/***************
+    ANIMACIONES
+****************/
 
 @keyframes desplazamiento {
     from {
@@ -32,35 +33,16 @@
       width: 100%;
     }
 }
-/* BLOQUES GALERIA*/
-.galeria{
-    font-family: 'Dosis', sans-serif;
-    padding: 100px;
 
-}
-.galeria div a{
-    background-color: black;
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-    border: solid 3px;
-}
-
-
-/*FOOTER*/
-.pie{
-    background-color: black;
-    color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 0;
-    height: 100px;
-    text-align: center;
-}
-/*FOTOS CON TEXTOS*/
+/*********************
+    FOTOS CON TEXTOS
+*********************/
+/*CONTENEDORES*/
 .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7{
     position: relative;
     display: inline-block;
 }
+/*TEXTOS EN LAS FOTOS*/
 .contenedor__plus, .contenedor1__plus, .contenedor3__plus, .contenedor5__plus, .contenedor7__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
@@ -74,29 +56,44 @@
     left: 50px;
 
 }
-.contenedor__plus1,  .contenedor6__plus{
+.contenedor2__plus,  .contenedor6__plus{
     font-family: 'Niconne', cursive;
     position: absolute;
     right: 100px;
     top: 150px;
 }
 
-.contenedor1__plus, .contenedor__plus1, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
+.contenedor1__plus, .contenedor2__plus, .contenedor4__plus, .contenedor6__plus, .contenedor7__plus{
     color: white;
 }
+/*CONTENEDORES DE FOTOS*/
 
-.contenedor__fotoAcercaDeMi, .contenedor__fotoEstudio, .contenedor__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil, .contenedor6__fotoSesiones{
+.contenedor__fotoAcercaDeMi, .contenedor1__fotoEstudio, .contenedor2__fotoMiniBaby, .contenedor3__fotoNewborn, .contenedor4__fotoMaternidad, .contenedor5__fotoInfantil, .contenedor6__fotoSesiones, .contenedor7__fotoFemmale{
     width: 100%;
 }
 
-/*MEDIA QUERIS*/
+
+/*********
+   FOOTER
+**********/
+.pie{
+    background-color: black;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+/*****************
+    MEDIA QUERIS
+******************/
 @media (min-width: 320px) and (max-width: 480px){
     .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
         left: 5px;
         top: 170px;
         
     }
-    .contenedor__plus1, .contenedor6__plus{
+    .contenedor2__plus, .contenedor6__plus{
         right: 60px;
         top: 170px;
     }
@@ -121,7 +118,7 @@
         left: 5px;
         top: 60px;
     }
-    .contenedor__plus1, .contenedor6__plus{
+    .contenedor2__plus, .contenedor6__plus{
         right: 60px;
         top: 50px;
     }
