@@ -7599,6 +7599,9 @@ textarea.form-control-lg {
     .contenedor .contenedor__plus, .contenedor .contenedor1__plus, .contenedor1 .contenedor__plus, .contenedor1 .contenedor1__plus, .contenedor2 .contenedor__plus, .contenedor2 .contenedor1__plus, .contenedor3 .contenedor__plus, .contenedor3 .contenedor1__plus, .contenedor4 .contenedor__plus, .contenedor4 .contenedor1__plus, .contenedor5 .contenedor__plus, .contenedor5 .contenedor1__plus, .contenedor6 .contenedor__plus, .contenedor6 .contenedor1__plus, .contenedor7 .contenedor__plus, .contenedor7 .contenedor1__plus {
       left: 5px;
       top: 190px; }
+    .contenedor .redes img, .contenedor1 .redes img, .contenedor2 .redes img, .contenedor3 .redes img, .contenedor4 .redes img, .contenedor5 .redes img, .contenedor6 .redes img, .contenedor7 .redes img {
+      width: 50px;
+      height: 50px; }
   .logo {
     display: none; }
   .seccion__parrafos {
