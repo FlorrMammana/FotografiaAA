@@ -7605,7 +7605,9 @@ textarea.form-control-lg {
   .logo {
     display: none; }
   .seccion__parrafos {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .pie {
+    padding: 100px; } }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7 {
@@ -7628,4 +7630,6 @@ textarea.form-control-lg {
   .seccion__parrafos {
     font-size: 1rem; }
   .logo {
-    display: none; } }
+    display: none; }
+  .pie {
+    padding: 100px; } }

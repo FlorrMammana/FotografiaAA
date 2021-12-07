@@ -138,6 +138,9 @@ $size200:200px;
     .seccion__parrafos{
         font-size: 1rem;
     }
+    .pie{
+        padding:100px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px){
@@ -169,5 +172,8 @@ $size200:200px;
         }
     .logo{
         display: none;
+    }
+    .pie{
+        padding:100px;
     }
 }
