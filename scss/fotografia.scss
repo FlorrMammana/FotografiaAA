@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 $size50:50px;
 $size100:100px;
 $size200:200px;
@@ -35,6 +36,7 @@ h2, .especial{
     margin: 40px;
     font-family: 'Dosis', sans-serif;
     font-size: 2rem;
+    border: solid 2px white;
 }
 .seccion__parrafos1{
     font-family: 'Playball', cursive;
@@ -98,11 +100,11 @@ h2, .especial{
         right:$size100 + $size50;
     } 
     .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
-        left: 40px;
+        left: 45px;
     }
     .prueba1{
         position: absolute;
-        font-family:Arial;
+        font-family: 'Cinzel', serif;
         top: $size100;
         left: 10px;  
     } 
@@ -192,6 +194,10 @@ h2, .especial{
         .contenedor__plus, .contenedor1__plus{
             left: 5px;
             top: $size50 + 10px;
+        }
+        .prueba1{
+            top:20px;
+            font-size:20px;
         }
     }
     .seccion__parrafos{

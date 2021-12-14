@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7532,7 +7533,8 @@ h2, .h2, .especial {
 .seccion__parrafos {
   margin: 40px;
   font-family: 'Dosis', sans-serif;
-  font-size: 2rem; }
+  font-size: 2rem;
+  border: solid 2px white; }
 
 .seccion__parrafos1 {
   font-family: 'Playball', cursive;
@@ -7578,10 +7580,10 @@ h2, .h2, .especial {
   .contenedor .contenedor2__plus, .contenedor1 .contenedor2__plus, .contenedor2 .contenedor2__plus, .contenedor3 .contenedor2__plus, .contenedor4 .contenedor2__plus, .contenedor5 .contenedor2__plus, .contenedor6 .contenedor2__plus, .contenedor7 .contenedor2__plus {
     right: 150px; }
   .contenedor .contenedor__plus, .contenedor .contenedor1__plus, .contenedor .contenedor3__plus, .contenedor1 .contenedor__plus, .contenedor1 .contenedor1__plus, .contenedor1 .contenedor3__plus, .contenedor2 .contenedor__plus, .contenedor2 .contenedor1__plus, .contenedor2 .contenedor3__plus, .contenedor3 .contenedor__plus, .contenedor3 .contenedor1__plus, .contenedor3 .contenedor3__plus, .contenedor4 .contenedor__plus, .contenedor4 .contenedor1__plus, .contenedor4 .contenedor3__plus, .contenedor5 .contenedor__plus, .contenedor5 .contenedor1__plus, .contenedor5 .contenedor3__plus, .contenedor6 .contenedor__plus, .contenedor6 .contenedor1__plus, .contenedor6 .contenedor3__plus, .contenedor7 .contenedor__plus, .contenedor7 .contenedor1__plus, .contenedor7 .contenedor3__plus {
-    left: 40px; }
+    left: 45px; }
   .contenedor .prueba1, .contenedor1 .prueba1, .contenedor2 .prueba1, .contenedor3 .prueba1, .contenedor4 .prueba1, .contenedor5 .prueba1, .contenedor6 .prueba1, .contenedor7 .prueba1 {
     position: absolute;
-    font-family: Arial;
+    font-family: 'Cinzel', serif;
     top: 100px;
     left: 10px; }
 
@@ -7653,6 +7655,9 @@ h2, .h2, .especial {
     .contenedor .contenedor__plus, .contenedor .contenedor1__plus, .contenedor1 .contenedor__plus, .contenedor1 .contenedor1__plus, .contenedor2 .contenedor__plus, .contenedor2 .contenedor1__plus, .contenedor3 .contenedor__plus, .contenedor3 .contenedor1__plus, .contenedor4 .contenedor__plus, .contenedor4 .contenedor1__plus, .contenedor5 .contenedor__plus, .contenedor5 .contenedor1__plus, .contenedor6 .contenedor__plus, .contenedor6 .contenedor1__plus, .contenedor7 .contenedor__plus, .contenedor7 .contenedor1__plus {
       left: 5px;
       top: 60px; }
+    .contenedor .prueba1, .contenedor1 .prueba1, .contenedor2 .prueba1, .contenedor3 .prueba1, .contenedor4 .prueba1, .contenedor5 .prueba1, .contenedor6 .prueba1, .contenedor7 .prueba1 {
+      top: 20px;
+      font-size: 20px; }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
