@@ -1,6 +1,8 @@
 @import "sass/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 $size50:50px;
 $size100:100px;
 $size200:200px;
@@ -15,19 +17,30 @@ $size200:200px;
     background-color:black;
     color:white;
 }
+/***********************
+    TITULOS DE CARRUSEL
+************************/
+h2, .especial{
+    font-family: 'Dancing Script', cursive;
+}
 /**************
     PARRAFOS
 **************/
-.seccion__parrafos{
-    font-family: 'Dosis', sans-serif;
-    font-size: 2rem;
-    margin: 50px;
-    text-align:center;
+.seccion__parrafos1, .seccion__parrafos{
     animation-name: desplazamiento;
     animation-duration: 4s;
     animation-iteration-count: 1;
 }
-
+.seccion__parrafos{
+    margin: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 2rem;
+}
+.seccion__parrafos1{
+    font-family: 'Playball', cursive;
+    font-size: 1.5em;
+    margin:10px;
+}
 /***************
     ANIMACIONES
 ****************/
@@ -86,8 +99,16 @@ $size200:200px;
     } 
     .contenedor__plus, .contenedor1__plus, .contenedor3__plus{
         left: 40px;
+    }
+    .prueba1{
+        position: absolute;
+        font-family:Arial;
+        top: $size100;
+        left: 10px;
+        
     } 
 }    
+/*TEXTO ALTERNATIVO*/
 
 /*********
    FOOTER
@@ -99,6 +120,9 @@ $size200:200px;
     margin-bottom: 0;
     height: $size100;
     text-align: center;
+}
+.redes{
+    text-align:right;
 }
 /*****************
     MEDIA QUERIS
@@ -138,8 +162,12 @@ $size200:200px;
     .seccion__parrafos{
         font-size: 1rem;
     }
+    .seccion__parrafos1{
+        font-size:0.5em;
+    }
     .pie{
-        padding:100px;
+        font-size:1em;
+        padding:10px;
     }
 }
 
@@ -166,14 +194,23 @@ $size200:200px;
             left: 5px;
             top: $size50 + 10px;
         }
+        .redes img{
+            width:50px;
+            height:50px;
+        }
     }
     .seccion__parrafos{
         font-size: 1rem;
         }
+    .seccion__parrafos1{
+        font-size:1em;
+        margin:10px;
+    }
     .logo{
         display: none;
     }
     .pie{
-        padding:100px;
+        font-size:1em;
+        padding:10px;
     }
 }
