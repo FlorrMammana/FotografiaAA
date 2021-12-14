@@ -104,8 +104,7 @@ h2, .especial{
         position: absolute;
         font-family:Arial;
         top: $size100;
-        left: 10px;
-        
+        left: 10px;  
     } 
 }    
 /*TEXTO ALTERNATIVO*/
@@ -114,15 +113,14 @@ h2, .especial{
    FOOTER
 **********/
 .pie{
+    position:relative;
+    display:inline-block;
+    width:100%;
     background-color: black;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
-    margin-bottom: 0;
-    height: $size100;
-    text-align: center;
-}
-.redes{
-    text-align:right;
+    font-size:1em;
+    height: $size100 + $size50;
 }
 /*****************
     MEDIA QUERIS
@@ -151,11 +149,7 @@ h2, .especial{
             left: 5px;
             top: $size200 - 10px;   
         }
-        .redes img{
-            width:50px;
-            height:50px;
-        }
-    }    
+    }   
     .logo{
         display: none;
     }
@@ -166,8 +160,13 @@ h2, .especial{
         font-size:0.5em;
     }
     .pie{
-        font-size:1em;
+        text-aling:left;
+        font-size:0.6em;
         padding:10px;
+        img{
+            width:40px;
+            height:40px;
+        }
     }
 }
 
@@ -194,10 +193,6 @@ h2, .especial{
             left: 5px;
             top: $size50 + 10px;
         }
-        .redes img{
-            width:50px;
-            height:50px;
-        }
     }
     .seccion__parrafos{
         font-size: 1rem;
@@ -210,7 +205,12 @@ h2, .especial{
         display: none;
     }
     .pie{
-        font-size:1em;
+        text-aling:left;
+        font-size:0.6em;
         padding:10px;
+        img{
+            width:40px;
+            height:40px;
+        }
     }
 }
