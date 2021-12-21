@@ -7634,8 +7634,8 @@ h2, .h2, .especial {
     font-size: 0.6em;
     padding: 10px; }
     .pie img {
-      width: 40px;
-      height: 40px; } }
+      width: 20px;
+      height: 20px; } }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .contenedor, .contenedor1, .contenedor2, .contenedor3, .contenedor4, .contenedor5, .contenedor6, .contenedor7 {
