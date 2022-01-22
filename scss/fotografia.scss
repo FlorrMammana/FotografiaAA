@@ -7,6 +7,7 @@
 $size50:50px;
 $size100:100px;
 $size200:200px;
+
 .container {
     height: 100vh;
     width: 100vw;
@@ -18,7 +19,6 @@ $size200:200px;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-    overflow: hidden;
 
   }
   .border {
@@ -32,6 +32,7 @@ $size200:200px;
   .border:hover {
     border: 1px solid #fff;
   }
+  
   .card {
     height: 379px;
     width: 300px;
