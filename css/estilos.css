@@ -7515,7 +7515,8 @@ textarea.form-control-lg {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  overflow: hidden; }
 
 .border {
   height: 369px;
@@ -7571,11 +7572,11 @@ textarea.form-control-lg {
   opacity: 1; }
 
 .card2 {
-  background: url("../imagenes/fotosComplementarias/f1.jpg") center center no-repeat;
+  background: url("../imagenes/fotosComplementarias/g33.jpg") center center no-repeat;
   background-size: 300px; }
 
 .card2:hover {
-  background: url("../imagenes/fotosComplementarias/f2.jpg") left center no-repeat;
+  background: url("../imagenes/fotosComplementarias/g34.jpg") left center no-repeat;
   background-size: 600px; }
 
 .card2:hover h2, .card2:hover .h2 {
@@ -7603,7 +7604,7 @@ h2, .h2 {
   top: 226px;
   width: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around; }
 
@@ -7656,7 +7657,8 @@ h2, .h2, .especial {
     ANIMACIONES
 ****************/
 .opacidad {
-  opacity: 0.40; }
+  opacity: 0.40;
+  justify-content: space-around; }
 
 img:hover {
   opacity: 1; }
@@ -7714,10 +7716,11 @@ img:hover {
    FOOTER
 **********/
 .pie {
+  position: fixed;
   width: 100%;
   background-color: black;
   color: white;
-  font-size: 0.75em;
+  font-size: 1em;
   height: 150px; }
 
 /*****************
@@ -7744,12 +7747,14 @@ img:hover {
       top: 190px; }
   .logo {
     display: none; }
+  .icons {
+    flex-direction: column; }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
     font-size: 0.5em; }
   .pie {
-    font-size: 0.6em;
+    font-size: 0.9em;
     padding: 10px; }
     .pie img {
       width: 20px;
@@ -7776,6 +7781,8 @@ img:hover {
     .contenedor .prueba1, .contenedor1 .prueba1, .contenedor2 .prueba1, .contenedor3 .prueba1, .contenedor4 .prueba1, .contenedor5 .prueba1, .contenedor6 .prueba1, .contenedor7 .prueba1 {
       top: 20px;
       font-size: 20px; }
+  .container {
+    overflow: hidden; }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
@@ -7783,9 +7790,11 @@ img:hover {
     margin: 10px; }
   .logo {
     display: none; }
+  .icons {
+    flex-direction: column; }
   .pie {
     text-aling: left;
-    font-size: 0.6em;
+    font-size: 0.9em;
     padding: 10px; }
     .pie img {
       width: 40px;

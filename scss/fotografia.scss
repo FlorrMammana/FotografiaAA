@@ -18,6 +18,8 @@ $size200:200px;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    overflow: hidden;
+
   }
   .border {
     height: 369px;
@@ -73,11 +75,11 @@ $size200:200px;
     opacity: 1;
   }
   .card2 {
-    background: url("../imagenes/fotosComplementarias/f1.jpg") center center no-repeat;
+    background: url("../imagenes/fotosComplementarias/g33.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card2:hover {
-    background: url("../imagenes/fotosComplementarias/f2.jpg") left center no-repeat;
+    background: url("../imagenes/fotosComplementarias/g34.jpg") left center no-repeat;
     background-size: 600px;
   }
   .card2:hover h2 {
@@ -105,7 +107,7 @@ $size200:200px;
     top: 226px;
     width: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
@@ -164,6 +166,8 @@ h2, .especial{
 //ICONOS REDES SOCIALES
 .opacidad{
     opacity: 0.40;
+    justify-content: space-around;
+
 }
 img:hover{
     opacity: 1;
@@ -243,10 +247,11 @@ img:hover{
    FOOTER
 **********/
 .pie{
+    position:fixed;
     width:100%;
     background-color: black;
     color: white;
-    font-size:0.75em;
+    font-size:1em;
     height: $size100 + $size50;
 }
 /*****************
@@ -280,6 +285,10 @@ img:hover{
     .logo{
         display: none;
     }
+    .icons{
+        flex-direction: column;
+
+    }
     .seccion__parrafos{
         font-size: 1rem;
     }
@@ -288,7 +297,7 @@ img:hover{
     }
     //rever
     .pie{
-        font-size:0.6em;
+        font-size:0.9em;
         padding:10px;
         img{
             width:20px;
@@ -325,6 +334,9 @@ img:hover{
             font-size:20px;
         }
     }
+    .container{
+        overflow:hidden;
+    }
     .seccion__parrafos{
         font-size: 1rem;
         }
@@ -335,9 +347,13 @@ img:hover{
     .logo{
         display: none;
     }
+    .icons{
+        flex-direction: column;
+
+    }
     .pie{
         text-aling:left;
-        font-size:0.6em;
+        font-size:0.9em;
         padding:10px;
         img{
             width:40px;
