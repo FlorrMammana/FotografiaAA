@@ -7505,17 +7505,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.contenedor-inicio {
-  height: 100vh;
-  width: 100vw;
-  max-height: 800px;
-  max-width: 1280px;
-  min-height: 600px;
-  min-width: 1000px;
+.contenedor-cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  margin: 0 auto; }
+  flex-direction: column; }
 
 .border {
   height: 369px;
@@ -7530,7 +7524,7 @@ textarea.form-control-lg {
 
 .card-plus {
   height: 379px;
-  width: 300px;
+  max-width: 100%;
   background: #808080;
   border-radius: 10px;
   transition: background 0.8s;
@@ -7603,7 +7597,7 @@ textarea.form-control-lg {
   top: 226px;
   width: 50px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around; }
 
@@ -7639,12 +7633,6 @@ h2, .h2, .especial {
 .seccion__parrafos1 {
   font-family: 'Playball', cursive;
   font-size: 1.5em; }
-
-/*-----------*/
-.rectangulo {
-  display: flex;
-  flex-direction: column;
-  background-color: black; }
 
 .recta {
   background-color: white;
@@ -7747,6 +7735,9 @@ img:hover {
     display: none; }
   .icons {
     flex-direction: column; }
+  .contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
@@ -7779,8 +7770,9 @@ img:hover {
     .contenedor .prueba1, .contenedor1 .prueba1, .contenedor2 .prueba1, .contenedor3 .prueba1, .contenedor4 .prueba1, .contenedor5 .prueba1, .contenedor6 .prueba1, .contenedor7 .prueba1 {
       top: 20px;
       font-size: 20px; }
-  .container {
-    overflow: hidden; }
+  .contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
