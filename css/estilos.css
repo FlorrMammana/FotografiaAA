@@ -7505,7 +7505,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-.container {
+.contenedor-inicio {
   height: 100vh;
   width: 100vw;
   max-height: 800px;
@@ -7528,7 +7528,7 @@ textarea.form-control-lg {
 .border:hover {
   border: 1px solid #fff; }
 
-.card {
+.card-plus {
   height: 379px;
   width: 300px;
   background: #808080;
@@ -7544,7 +7544,7 @@ textarea.form-control-lg {
 
 .card0 {
   background: url("../imagenes/fotosComplementarias/f1.jpg") center center no-repeat;
-  background-size: 300px; }
+  background-size: cover; }
 
 .card0:hover {
   background: url("../imagenes/fotosComplementarias/f2.jpg") left center no-repeat;
@@ -7558,7 +7558,7 @@ textarea.form-control-lg {
 
 .card1 {
   background: url("../imagenes/fotosComplementarias/e9.jpg") center center no-repeat;
-  background-size: 300px; }
+  background-size: cover; }
 
 .card1:hover {
   background: url("../imagenes/fotosComplementarias/e8.jpg") left center no-repeat;
@@ -7572,7 +7572,7 @@ textarea.form-control-lg {
 
 .card2 {
   background: url("../imagenes/fotosComplementarias/g33.jpg") center center no-repeat;
-  background-size: 300px; }
+  background-size: cover; }
 
 .card2:hover {
   background: url("../imagenes/fotosComplementarias/g34.jpg") left center no-repeat;
@@ -7584,7 +7584,7 @@ textarea.form-control-lg {
 .card2:hover .fa {
   opacity: 1; }
 
-h2, .h2 {
+.titular {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 20px;
@@ -7715,7 +7715,6 @@ img:hover {
    FOOTER
 **********/
 .pie {
-  position: fixed;
   width: 100%;
   background-color: black;
   color: white;
