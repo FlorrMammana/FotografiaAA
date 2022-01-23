@@ -7509,7 +7509,7 @@ textarea.form-control-lg {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: row; }
 
 .border {
   height: 369px;
