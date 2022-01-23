@@ -7544,7 +7544,7 @@ textarea.form-control-lg {
 
 .card0 {
   background: url("../imagenes/fotosComplementarias/f1.jpg") center center no-repeat;
-  background-size: cover; }
+  background-size: 300px; }
 
 .card0:hover {
   background: url("../imagenes/fotosComplementarias/f2.jpg") left center no-repeat;
@@ -7558,7 +7558,7 @@ textarea.form-control-lg {
 
 .card1 {
   background: url("../imagenes/fotosComplementarias/e9.jpg") center center no-repeat;
-  background-size: cover; }
+  background-size: 300px; }
 
 .card1:hover {
   background: url("../imagenes/fotosComplementarias/e8.jpg") left center no-repeat;
@@ -7572,7 +7572,7 @@ textarea.form-control-lg {
 
 .card2 {
   background: url("../imagenes/fotosComplementarias/g33.jpg") center center no-repeat;
-  background-size: cover; }
+  background-size: 300px; }
 
 .card2:hover {
   background: url("../imagenes/fotosComplementarias/g34.jpg") left center no-repeat;
