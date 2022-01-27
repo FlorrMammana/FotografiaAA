@@ -7505,6 +7505,19 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.bloque {
+  background-color: white;
+  color: black;
+  text-aling: end;
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.fotoIn {
+  text-aling: start;
+  width: 30%; }
+
 .contenedor-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
@@ -7577,7 +7590,7 @@ textarea.form-control-lg {
   opacity: 1; }
 
 .titular {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Dancing Script', cursive;
   color: #fff;
   margin: 20px;
   opacity: 0;

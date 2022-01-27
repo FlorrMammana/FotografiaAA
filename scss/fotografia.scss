@@ -7,7 +7,19 @@
 $size50:50px;
 $size100:100px;
 $size200:200px;
-
+.bloque{
+    background-color:white;
+    color:black;
+    text-aling:end;
+    display:flex;
+    flex-direction:row;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.fotoIn{
+    text-aling:start;
+    width:30%;
+}
 .contenedor-cards{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
@@ -82,7 +94,7 @@ $size200:200px;
     opacity: 1;
   }
   .titular{
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #fff;
     margin: 20px;
     opacity: 0;
