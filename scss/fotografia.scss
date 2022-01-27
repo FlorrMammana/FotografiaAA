@@ -12,7 +12,7 @@ $size200:200px;
     background-color:white;
     color:black;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -29,10 +29,7 @@ $size200:200px;
 .fotoIn{
     width:100%;
 }
-.bloque1{
-    display:flex;
-    flex-direction:column;
-}
+
 .contenedor-cards{
     padding-top:50px;
     display:grid;
@@ -40,9 +37,10 @@ $size200:200px;
 }
 .firma{
     width:50%;
-    text-aling:left;
 }
-
+.firmar{
+    aling:right;
+}
 
 .border-plus {
     height: 369px;
@@ -56,7 +54,7 @@ $size200:200px;
     border: 1px solid #fff;
   }
   
-  .card-plus {
+.card-plus {
     height: 379px;
     max-width:100%;
     background: #808080;
@@ -69,13 +67,15 @@ $size200:200px;
     justify-content: center;
     align-items: center;
     position: relative;
-  }
+
+}
   .card0 {
-    background: url("../imagenes/fotosComplementarias/f1.jpg") center center no-repeat;
+    background: url("../imagenes/cards_inicio/f1.jpg") center center no-repeat;
     background-size: 300px;
+
   }
   .card0:hover {
-    background: url("../imagenes/fotosComplementarias/f2.jpg") left center no-repeat;
+    background: url("../imagenes/cards_inicio/f2.jpg") left center no-repeat;
     background-size: 600px;
   }
   .card0:hover h2 {
@@ -85,11 +85,11 @@ $size200:200px;
     opacity: 1;
   }
   .card1 {
-    background: url("../imagenes/fotosComplementarias/e9.jpg") center center no-repeat;
+    background: url("../imagenes/cards_inicio/e9.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card1:hover {
-    background: url("../imagenes/fotosComplementarias/e8.jpg") left center no-repeat;
+    background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
     background-size: 400px;
   }
   .card1:hover h2 {
@@ -99,11 +99,11 @@ $size200:200px;
     opacity: 1;
   }
   .card2 {
-    background: url("../imagenes/fotosComplementarias/g33.jpg") center center no-repeat;
+    background: url("../imagenes/cards_inicio/g33.jpg") center center no-repeat;
     background-size: 300px;
   }
   .card2:hover {
-    background: url("../imagenes/fotosComplementarias/g34.jpg") left center no-repeat;
+    background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
     background-size: 600px;
   }
   .card2:hover h2 {
@@ -112,6 +112,42 @@ $size200:200px;
   .card2:hover .fa {
     opacity: 1;
   }
+  .card4 {
+    background: url("../imagenes/cards_inicio/a3.jpg") center center no-repeat;
+    background-size: 300px;
+
+  }
+  .card4:hover {
+    background: url("../imagenes/cards_inicio/a6.jpg") left center no-repeat;
+    background-size: 500px;
+  }
+  .card4:hover h2 {
+    opacity: 1;
+  }
+  .card5 {
+    background: url("../imagenes/cards_inicio/e6.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card5:hover {
+    background: url("../imagenes/cards_inicio/e7.jpg") left center no-repeat;
+    background-size: 500px;
+  }
+  .card5:hover h2 {
+    opacity: 1;
+  }
+
+  .card6 {
+    background: url("../imagenes/cards_inicio/d8.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  .card6:hover {
+    background: url("../imagenes/cards_inicio/d10.jpg") left center no-repeat;
+    background-size: 400px;
+  }
+  .card6:hover h2 {
+    opacity: 1;
+  }
+
   .titular{
     font-family: 'Dancing Script', cursive;
     color: #fff;
@@ -123,7 +159,7 @@ $size200:200px;
     opacity: 0;
     transition: opacity 1s;
   }
-  .icons {
+/*  .icons {
     position: absolute;
     fill: #fff;
     color: #fff;
@@ -135,7 +171,7 @@ $size200:200px;
     align-items: center;
     justify-content: space-around;
   }
-  
+  */
 *{
     margin: 0;
     padding: 0;
