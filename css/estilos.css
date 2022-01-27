@@ -7737,7 +7737,7 @@ img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row; }
+    flex-direction: column; }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {
