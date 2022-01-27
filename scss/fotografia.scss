@@ -4,26 +4,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 $size50:50px;
 $size100:100px;
 $size200:200px;
 .bloque{
     background-color:white;
     color:black;
-    text-aling:end;
     display:flex;
     flex-direction:row;
     padding-top:50px;
     padding-bottom:50px;
 }
-.fotoIn{
+/*
+.bloque2{
     text-aling:start;
-    width:30%;
+    width:100%;
+
+}*/
+.textoIndex{
+    font-size:1.2em;
+    font-family: 'Playfair Display', serif;
+}
+.fotoIn{
+    width:100%;
+}
+.bloque1{
+    display:flex;
+    flex-direction:column;
 }
 .contenedor-cards{
+    padding-top:50px;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
 }
+.firma{
+    width:50%;
+    text-aling:left;
+}
+
 
 .border-plus {
     height: 369px;
@@ -149,6 +168,7 @@ h2, .especial{
 .seccion__parrafos1{
     font-family: 'Playball', cursive;
     font-size: 1.5em;
+    width:50%;
 }
 
 .recta{
@@ -234,12 +254,7 @@ img:hover{
     } 
 } 
 
-//FOTOS
-.circular{
-    width: 100%;
-    height: 300px;
-    border-radius: 60%;
-}
+
 /*TEXTO ALTERNATIVO*/
 
 /*********
@@ -299,7 +314,15 @@ img:hover{
     .seccion__parrafos1{
         font-size:0.5em;
     }
-    //rever
+    .textoIndex{
+        font-size:1em;
+    }
+    .fotoIn{
+        display:none;
+        }
+        .textoIndex{
+            font-size:1em;
+        }
     .pie{
         font-size:0.9em;
         padding:10px;
@@ -348,6 +371,15 @@ img:hover{
     .seccion__parrafos1{
         font-size:1em;
         margin:10px;
+    }
+    .separacion{
+        width:30%;
+    }
+    .fotoIn{
+    display:none;
+    }
+    .textoIndex{
+        font-size:1em;
     }
     .logo{
         display: none;
