@@ -7571,10 +7571,11 @@ textarea.form-control-lg {
   background: url("../imagenes/cards_inicio/f2.jpg") left center no-repeat;
   background-size: 600px; }
 
-.card0:hover h2, .card0:hover .h2 {
-  opacity: 1; }
+.card0:active {
+  background: url("../imagenes/cards_inicio/f2.jpg") left center no-repeat;
+  background-size: 600px; }
 
-.card0:hover .fa {
+.card0:hover h2, .card0:hover .h2 {
   opacity: 1; }
 
 .card1 {
@@ -7585,10 +7586,11 @@ textarea.form-control-lg {
   background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
   background-size: 400px; }
 
-.card1:hover h2, .card1:hover .h2 {
-  opacity: 1; }
+.card1:active {
+  background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
+  background-size: 400px; }
 
-.card1:hover .fa {
+.card1:hover h2, .card1:hover .h2 {
   opacity: 1; }
 
 .card2 {
@@ -7596,6 +7598,10 @@ textarea.form-control-lg {
   background-size: 300px; }
 
 .card2:hover {
+  background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
+  background-size: 600px; }
+
+.card2:active {
   background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
   background-size: 600px; }
 
