@@ -7506,12 +7506,10 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .contenedor-cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row; }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
 
-.border {
+.border-plus {
   height: 369px;
   width: 290px;
   background: transparent;
@@ -7736,8 +7734,10 @@ img:hover {
   .icons {
     flex-direction: column; }
   .contenedor-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
   .seccion__parrafos {
     font-size: 1rem; }
   .seccion__parrafos1 {

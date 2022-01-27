@@ -7,22 +7,21 @@
 $size50:50px;
 $size100:100px;
 $size200:200px;
+
 .contenedor-cards{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:row;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
 }
 
-  .border {
+.border-plus {
     height: 369px;
     width: 290px;
     background: transparent;
     border-radius: 10px;
     transition: border 1s;
     position: relative;
-  }
-  .border:hover {
+}
+.border:hover {
     border: 1px solid #fff;
   }
   
@@ -277,8 +276,10 @@ img:hover{
 
     }
     .contenedor-cards{
-        display:grid;
-        grid-template-columns:repeat(3, 1fr);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:row;
     }
     .seccion__parrafos{
         font-size: 1rem;
@@ -325,7 +326,6 @@ img:hover{
             font-size:20px;
         }
     }
-    
     .contenedor-cards{
         display:grid;
         grid-template-columns:repeat(2, 1fr);
