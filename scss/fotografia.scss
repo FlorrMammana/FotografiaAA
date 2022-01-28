@@ -305,12 +305,17 @@ img:hover{
    FOOTER
 **********/
 .pie{
+    padding-top:30px;
+    bottom:0;
     width:100%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-size:1em;
-    height: $size100 + $size50;
+    height: $size100;
+    position:fixed;
 }
+
+
 /*****************
     MEDIA QUERIS
 ******************/
@@ -370,10 +375,17 @@ img:hover{
     .pie{
         font-size:0.9em;
         padding:10px;
+        bottom:0;
+
         img{
             width:20px;
             height:20px;
         }
+    }
+    .card0, .card1, .card2, .card4, .card5, .card6{
+        padding-bottom:50px;
+        padding-top:50px;
+
     }
 }
 
@@ -436,9 +448,15 @@ img:hover{
         text-aling:left;
         font-size:0.9em;
         padding:10px;
+        bottom:0;
         img{
             width:40px;
             height:40px;
         }
+
+    }
+    .card0, .card1, .card2, .card4, .card5, .card6{
+        padding-bottom:50px;
+        padding-top:50px;
     }
 }
