@@ -7771,8 +7771,8 @@ img:hover {
 .pie {
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: 1em;
   height: 100px;
   position: fixed; }
