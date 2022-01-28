@@ -7549,6 +7549,9 @@ textarea.form-control-lg {
 .border:hover {
   border: 1px solid #fff; }
 
+.espacio {
+  padding-bottom: 200px; }
+
 .card-plus {
   height: 379px;
   max-width: 100%;
@@ -7766,7 +7769,6 @@ img:hover {
    FOOTER
 **********/
 .pie {
-  padding-top: 30px;
   bottom: 0;
   width: 100%;
   background-color: white;
@@ -7818,8 +7820,7 @@ img:hover {
     font-size: 1em; }
   .pie {
     font-size: 0.9em;
-    padding: 10px;
-    bottom: 0; }
+    padding: 10px; }
     .pie img {
       width: 20px;
       height: 20px; }
@@ -7869,8 +7870,7 @@ img:hover {
   .pie {
     text-aling: left;
     font-size: 0.9em;
-    padding: 10px;
-    bottom: 0; }
+    padding: 10px; }
     .pie img {
       width: 40px;
       height: 40px; }
