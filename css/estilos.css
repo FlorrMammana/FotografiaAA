@@ -7513,6 +7513,9 @@ textarea.form-control-lg {
 /************
     BODY
 *************/
+.banner {
+  width: 100%; }
+
 .bloque {
   background-color: white;
   color: black;
