@@ -310,10 +310,10 @@ img:hover{
     bottom:0;
     width:100%;
     background-color: black;
-    color: white;
-    font-size:1em;
-    height: $size100;
+    height: 80px;
     position:fixed;
+    justify-content: space-around;
+
 }
 
 
@@ -378,8 +378,8 @@ img:hover{
         padding:10px;
 
         img{
-            width:20px;
-            height:20px;
+            width:50px;
+            height:50px;
         }
     }
     .card0, .card1, .card2, .card4, .card5, .card6{
@@ -449,8 +449,8 @@ img:hover{
         font-size:0.9em;
         padding:10px;
         img{
-            width:40px;
-            height:40px;
+            width:50px;
+            height:50px;
         }
 
     }
