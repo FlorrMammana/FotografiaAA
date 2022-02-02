@@ -8,6 +8,16 @@
 $size50:50px;
 $size100:100px;
 $size200:200px;
+*{
+    padding:0;
+    margin:0;
+}
+/************
+    BODY
+*************/
+
+
+//BLOQUES BLANCOS
 .bloque{
     background-color:white;
     color:black;
@@ -16,32 +26,26 @@ $size200:200px;
     padding-top:50px;
     padding-bottom:50px;
 }
-/*
-.bloque2{
-    text-aling:start;
-    width:100%;
-
-}*/
+//TEXTO INICIO
 .textoIndex{
     font-size:1.2em;
     font-family: 'Playfair Display', serif;
-}
-.fotoIn{
-    width:100%;
+    text-align:justify;
+    line-height: 2; 
+
 }
 
+//CONTENEDOR GENERAL DE CARDS
 .contenedor-cards{
     padding-top:50px;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
 }
+//FOTO FIRMA ANTONELLA
 .firma{
     width:50%;
 }
-.firmar{
-    aling:right;
-}
-
+//BORDES DE CARDS
 .border-plus {
     height: 369px;
     width: 290px;
@@ -50,12 +54,15 @@ $size200:200px;
     transition: border 1s;
     position: relative;
 }
+//EFECTO DE BORDE
 .border:hover {
     border: 1px solid #fff;
   }
+  //ESPACIO ENTRE FOOTER Y TEXTO
 .espacio{
     padding-bottom:200px;
 }  
+//CARDS
 .card-plus {
     height: 379px;
     max-width:100%;
@@ -71,11 +78,13 @@ $size200:200px;
     position: relative;
 
 }
+//CARD INDIVIDUAL FOTO INICIAL
   .card0 {
     background: url("../imagenes/cards_inicio/f1.jpg") center center no-repeat;
     background-size: 300px;
 
   }
+  //CARD CON EFECTO SEGUNDA FOTO
   .card0:hover {
     background: url("../imagenes/cards_inicio/f2.jpg") left center no-repeat;
     background-size: 600px;
@@ -96,10 +105,6 @@ $size200:200px;
     background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
     background-size: 400px;
   }
-  .card1:active {
-    background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
-    background-size: 400px;
-  }
   .card1:hover h2 {
     opacity: 1;
   }
@@ -112,14 +117,7 @@ $size200:200px;
     background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
     background-size: 600px;
   }
-  .card2:active {
-    background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
-    background-size: 600px;
-  }
   .card2:hover h2 {
-    opacity: 1;
-  }
-  .card2:hover .fa {
     opacity: 1;
   }
   .card4 {
@@ -157,7 +155,7 @@ $size200:200px;
   .card6:hover h2 {
     opacity: 1;
   }
-
+//TEXTO EN CARDS
   .titular{
     font-family: 'Dancing Script', cursive;
     color: #fff;
@@ -165,27 +163,7 @@ $size200:200px;
     opacity: 0;
     transition: opacity 1s;
   }
-  .fa {
-    opacity: 0;
-    transition: opacity 1s;
-  }
-/*  .icons {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 /**********
     FONDO
 ***********/
@@ -202,28 +180,21 @@ h2, .especial{
 /**************
     PARRAFOS
 **************/
-.seccion__parrafos1, .seccion__parrafos{
-    animation-name: desplazamiento;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-}
-.seccion__parrafos{
-    font-family: 'Dosis', sans-serif;
-    font-size: 2rem;
-}
+
 .seccion__parrafos1{
     font-family: 'Playball', cursive;
     font-size: 1.5em;
     width:50%;
 }
 
-.recta{
+.cursiva{
+    font-family: 'Dancing Script', cursive;
+    font-size:3em;
 
-    background-color:white;
-    margin:50px;
-    width:100%;
-    height:150px;
-
+}
+.cursiva-mini{
+    font-family: 'Dancing Script', cursive;
+    font-size:1.5em;
 }
 /***************
     ANIMACIONES
@@ -312,8 +283,6 @@ img:hover{
     background-color: black;
     height: 80px;
     position:fixed;
-    justify-content: space-around;
-
 }
 
 
@@ -350,7 +319,6 @@ img:hover{
     }
     .icons{
         flex-direction: column;
-
     }
     .contenedor-cards{
         display:flex;
@@ -367,9 +335,7 @@ img:hover{
     .textoIndex{
         font-size:1em;
     }
-    .fotoIn{
-        display:none;
-    }
+    
     .textoIndex{
         font-size:1em;
     }

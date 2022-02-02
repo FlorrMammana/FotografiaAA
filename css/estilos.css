@@ -7506,6 +7506,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+* {
+  padding: 0;
+  margin: 0; }
+
+/************
+    BODY
+*************/
 .bloque {
   background-color: white;
   color: black;
@@ -7514,18 +7521,11 @@ textarea.form-control-lg {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-/*
-.bloque2{
-    text-aling:start;
-    width:100%;
-
-}*/
 .textoIndex {
   font-size: 1.2em;
-  font-family: 'Playfair Display', serif; }
-
-.fotoIn {
-  width: 100%; }
+  font-family: 'Playfair Display', serif;
+  text-align: justify;
+  line-height: 2; }
 
 .contenedor-cards {
   padding-top: 50px;
@@ -7534,9 +7534,6 @@ textarea.form-control-lg {
 
 .firma {
   width: 50%; }
-
-.firmar {
-  aling: right; }
 
 .border-plus {
   height: 369px;
@@ -7589,10 +7586,6 @@ textarea.form-control-lg {
   background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
   background-size: 400px; }
 
-.card1:active {
-  background: url("../imagenes/cards_inicio/e8.jpg") left center no-repeat;
-  background-size: 400px; }
-
 .card1:hover h2, .card1:hover .h2 {
   opacity: 1; }
 
@@ -7604,14 +7597,7 @@ textarea.form-control-lg {
   background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
   background-size: 600px; }
 
-.card2:active {
-  background: url("../imagenes/cards_inicio/g34.jpg") left center no-repeat;
-  background-size: 600px; }
-
 .card2:hover h2, .card2:hover .h2 {
-  opacity: 1; }
-
-.card2:hover .fa {
   opacity: 1; }
 
 .card4 {
@@ -7654,27 +7640,6 @@ textarea.form-control-lg {
   opacity: 0;
   transition: opacity 1s; }
 
-.fa {
-  opacity: 0;
-  transition: opacity 1s; }
-
-/*  .icons {
-    position: absolute;
-    fill: #fff;
-    color: #fff;
-    height: 130px;
-    top: 226px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  */
-* {
-  margin: 0;
-  padding: 0; }
-
 /**********
     FONDO
 ***********/
@@ -7691,25 +7656,18 @@ h2, .h2, .especial {
 /**************
     PARRAFOS
 **************/
-.seccion__parrafos1, .seccion__parrafos {
-  animation-name: desplazamiento;
-  animation-duration: 4s;
-  animation-iteration-count: 1; }
-
-.seccion__parrafos {
-  font-family: 'Dosis', sans-serif;
-  font-size: 2rem; }
-
 .seccion__parrafos1 {
   font-family: 'Playball', cursive;
   font-size: 1.5em;
   width: 50%; }
 
-.recta {
-  background-color: white;
-  margin: 50px;
-  width: 100%;
-  height: 150px; }
+.cursiva {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em; }
+
+.cursiva-mini {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em; }
 
 /***************
     ANIMACIONES
@@ -7773,8 +7731,7 @@ img:hover {
   width: 100%;
   background-color: black;
   height: 80px;
-  position: fixed;
-  justify-content: space-around; }
+  position: fixed; }
 
 /*****************
     MEDIA QUERIS
@@ -7813,8 +7770,6 @@ img:hover {
     font-size: 0.5em; }
   .textoIndex {
     font-size: 1em; }
-  .fotoIn {
-    display: none; }
   .textoIndex {
     font-size: 1em; }
   .pie {
