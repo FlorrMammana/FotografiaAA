@@ -12,6 +12,7 @@ $size200:200px;
     padding:0;
     margin:0;
 }
+
 /************
     BODY
 *************/
@@ -166,7 +167,10 @@ $size200:200px;
     opacity: 0;
     transition: opacity 1s;
   }
-
+//mapa
+.mapa{
+    width:100%;
+}
 /**********
     FONDO
 ***********/
