@@ -10,7 +10,7 @@ Tipografias y animaciones para resaltar cada detalle.
 
 # Construcción
 
-El proyecto esta creado con Html, Css y JavaScript Vanilla.
+El proyecto esta creado con Html, Css y JavaScript.
 Se utilizo para los estilos Bootstrap y se compilo con Sass.
 
 # Autor
